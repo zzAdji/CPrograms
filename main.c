@@ -1,19 +1,21 @@
 #include <stdio.h>
+#include <stdlib.h>
+#include "sample_lib.h"
 
-int main() {
-    int num1, num2, sum;
-    
-    /*printf("Enter first number: ");
-    scanf("%d", &num1);
-    
-    printf("Enter second number: ");
-    scanf("%d", &num2);
-    
-    sum = num1 + num2;
-    
-    printf("Sum of %d and %d is %d\n", num1, num2, sum);*/
+int main( void ) {
+    int result = power( 2, 3 );
+    int x = 1;
+    int y = 2;
 
-    printf("Hello World");
-    
-    return 0;
+    printf("\nAvant permutation :\nx = %d\ny = %d", x, y);
+    switchVar(&x, &y);
+    printf("\nApres permutation :\nx = %d\ny = %d", x, y);
+
+    printf( "2³ == %d\n", result );
+    result = fact( 6 );
+    printf( "6! == %d\n", result );
+
+    arrayView();
+
+    return EXIT_SUCCESS;
 }
