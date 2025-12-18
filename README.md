@@ -1,4 +1,4 @@
-# Travail Personnel de l'Etudiant
+# Travail Personnel de l'Etudiant : Oumaté Alim Alhadji
 
 Ce repository est le resultat d'un TPE donnée à l'ENSPM - Cameroun dans le cadre de l'UE : Algorithmique et Programmation en C/Java. 
 
