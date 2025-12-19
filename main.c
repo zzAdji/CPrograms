@@ -13,6 +13,7 @@ int main( void ) {
         printf("4. Nombre Premier\n");
         printf("5. Equation Second Degre\n");
         printf("6. Distance 2 Points\n");
+        printf("7. Afficher les elements d'un tableau\n");
         printf("0. Quitter\n");
         printf("Entrer votre choix : ");
         scanf("%d", &choice);
@@ -82,6 +83,10 @@ int main( void ) {
                 printf("Entrez y2 : ");
                 scanf("%lf", &p2.y);
                 printf("La distance est : %.2f\n", distancePoint(p1, p2));
+                break;
+            }
+            case 7: {
+                arrayListing();
                 break;
             }
             case 0:

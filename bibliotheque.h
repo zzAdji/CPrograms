@@ -24,4 +24,7 @@ void solverEquation(double a, double b, double c);
 // Définition d'une fonction qui calcul la distance entre deux points.
 double distancePoint(Point a, Point b);
 
+// Définition d'une fonction qui affiche les éléments d'un tableau.
+void arrayListing();
+
 #endif

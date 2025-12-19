@@ -100,3 +100,17 @@ double distancePoint(Point a, Point b) {
 
     return distance;
 }
+
+// Définition d'une fonction qui affiche les éléments d'un tableau.
+#define ARRAY_SIZE 5
+void arrayListing() {
+    int array[ ARRAY_SIZE ];
+    array[0] = 1;
+    array[1] = 2;
+    array[2] = 4;
+    array[3] = 8;
+    array[4] = 16;
+    for( int i=0; i<ARRAY_SIZE; i++ ) {
+    printf( "array[%d] == %d\n", i, array[i] );
+    }
+}
