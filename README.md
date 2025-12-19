@@ -14,6 +14,7 @@ Ce projet est une collection de fonctions mathématiques de base écrites en C. 
 4.  `isPrimeNumber` : Vérifie si un nombre entier positif est premier.
 5.  `solverEquation` : Résout une équation du second degré ($ax^2 + bx + c = 0$).
 6.  `distancePoint` : Calcule la distance entre deux points en utilisant une structure.
+7.  `arrayListing` : Affiche les éléments d'un tableau.
 
 ## Compillation et exécution
 
